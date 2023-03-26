@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "moto"
+version = "0.1.0"
+description = "mototherapy backend for itschool"
+authors = ["Craverman <CraVerka@googlemail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.5"
+django-phonenumber-field = "^7.0.1"
+phonenumberslite = "8.13.2"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
