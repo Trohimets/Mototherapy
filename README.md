@@ -33,7 +33,7 @@ source venv/scripts/activate
 ```
 pip install poetry
 ```
-- Установить зависимости зависимости проекта:
+- Установить зависимости проекта:
 ```
 poetry isntall
 ```
